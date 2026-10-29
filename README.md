@@ -81,15 +81,3 @@ No conjunto de treinamento, a Árvore de Decisão obteve **redução aproximada 
    ```
 
 5. Abra `Regressao_Linear_Multipla.ipynb` e execute as células na ordem.
-
-## Limitações e próximos passos
-
-- **Avaliação fora da amostra:** calcular MAE, RMSE e R² no conjunto de teste, preservando-o para a avaliação final.
-- **Validação cruzada:** comparar a estabilidade e o desempenho dos algoritmos em diferentes partições dos dados de treinamento.
-- **Ajuste de hiperparâmetros:** avaliar configurações da Árvore de Decisão para reduzir o risco de sobreajuste.
-- **Interpretação dos resultados:** investigar erros por faixa de preço e localização, incluindo o efeito de valores imobiliários limitados na base.
-- **Reprodutibilidade:** fixar as versões das bibliotecas e revisar trechos que possam emitir avisos de compatibilidade com versões recentes do Pandas.
-
-## Contexto do projeto
-
-Estudo prático de regressão e preparação de dados com foco no desenvolvimento de competências em **Análise de Dados, Estatística e Machine Learning**. As métricas documentadas refletem exclusivamente as etapas executadas no notebook fornecido.
